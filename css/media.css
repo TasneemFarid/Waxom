@@ -1,0 +1,864 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+        /* Header Part Start */
+       .navbar-light .navbar-toggler {
+           border-color: #fff;
+           transition: 0.4s;
+           -webkit-transition: 0.4s;
+           -moz-transition: 0.4s;
+           -ms-transition: 0.4s;
+           -o-transition: 0.4s;
+       }
+       .navbar-light .navbar-toggler i {
+           color: #fff;
+           transition: 0.4s;
+       }
+       .navbar-toggler:hover {
+           border-color: #c7b299;
+       }
+       .navbar-toggler:hover.navbar-toggler i {
+           color: #c7b299;
+       }
+       .navbar-nav {
+           text-align: center;
+           background: rgba(17, 17, 17, 0.95);
+       }
+       .sticky_header {
+           background: linear-gradient(to right, #211b19, #4e3427);
+           opacity: 0.95;
+       }
+       /* Header Part End */
+   
+        /* Banner Part Start */
+       .overlay {
+           padding-top: 200px;
+           padding-bottom: 80px;
+       }
+       .banner_text h3 {
+           font-size: 22px;
+           line-height: 30px;
+       }
+       .banner_text h1 {
+           font-size: 35px;
+       }
+       .banner_text p {
+           font-size: 13px;
+           padding: 0px 0px;
+           line-height: 24px;
+       }
+       .banner_text a {
+           font-size: 10px;
+           padding: 12px 25px 9px 25px;
+           margin-top: 42px;
+       }
+       /* Banner Part End */
+       
+       /* Service Part Start */
+       #service {
+           padding: 40px 0px;
+       }
+       .service_text p {
+           font-size: 12px;
+           padding: 0px 20px;
+       }
+       /* Service Part End */
+   
+        /* idea Part Start */
+        #idea {
+           padding-top: 40px;
+       }
+       .idea_text h3 {
+           font-size: 22px;
+           line-height: 24px;
+       }
+       .idea_text p {
+           font-size: 13px;
+           line-height: 24px;
+           padding: 20px 10px 30px 10px;
+       }
+       /* idea Part End */
+   
+       /* purchase Part Start */
+       #purchase {
+           padding: 40px 0px;
+       }
+       .purchase_text h3 {
+           font-size: 25px;
+           line-height: 30px;
+           text-align: center;
+       }
+       .purchase_text p {
+           font-size: 14px;
+           text-align: center;
+           line-height: 24px;
+       }
+       .purchase_btn {
+           text-align: center;
+       }
+       .purchase_btn a {
+           font-size: 10px;
+           padding: 8px 18px 5px 17px;
+           margin-top: 25px;
+       }
+       .text-right {
+           text-align: center !important;
+       } 
+       /* purchase Part End */
+   
+        /* Project Part Start */
+        #project {
+           padding: 40px 0px;
+           background: #fff;
+       }
+       .project_btn button {
+           padding: 5px 10px 5px 10px;
+           font-size: 12px;
+           margin-right: 2px;
+           margin-bottom: 5px;
+       }
+       .project_text h3 {
+           font-size: 18px;
+       }
+       .project_text p {
+           font-size: 12px;
+       }
+       .project_btn a {
+           font-size: 10px;
+           padding: 10px 20px 7px 20px;
+       }
+       .mt-5, .my-5 {
+           margin-top: 2rem !important;
+       }
+       /* Project Part End */
+   
+        /* Video Part Start */
+        .video_overlay {
+           padding-top: 50px;
+           padding-bottom: 20px;
+       }
+       /* Video Part End */
+   
+       /* Mobile Part Start */
+       #mobile {
+           padding-top: 40px;
+       }
+       .mob_up_text {
+           margin-top: 50px;
+           text-align: center;
+           font-size: 24px;
+           line-height: 26px;
+       }
+       .mob_up_text .idea_text p {
+           padding-bottom: 0px;
+       }
+       .mob_btm_text {
+           margin-top: 25px;
+           margin-bottom: 50px;
+           margin-left: 15px;
+       }
+       .mob_btm_text ul li {
+           font-size: 12px;
+           margin-bottom: 12px;
+           line-height: 20px;
+       }
+       .mob_btm_text ul li i {
+           font-size: 15px;
+       }
+       /* Mobile Part End */
+   
+        /* Counter Part Start */
+        .counter_item {
+           margin-bottom: 60px;
+       }
+       #counter_part {
+           padding-top: 35px;
+           padding-bottom: 15px;
+       }
+       /* Counter Part End */
+   
+        /* Blog Part Start */
+        #blog {
+           padding: 25px 0px;
+       }
+       .blog_text {
+           text-align: center;
+       }
+       .blog_text h3 {
+           font-size: 20px;
+           transition: 0.4s;
+       }
+       .blog_text p {
+           font-size: 13px;
+       }
+       .blog_text a {
+           font-size: 12px;
+       }
+       /* Blog Part End */
+   
+       /* Client Part Start */
+        .client_overlay {
+           padding: 50px 0px;
+       }
+       .slick-slide img {
+           display: inline-block;
+       }
+       /* Client Part end */
+   
+       /* Footer Part End */
+       #top_footer {
+           padding: 40px 0px;
+       }
+       .footer_logo {
+           text-align: center;
+       }
+       .first_footer_text {
+           text-align: center;
+       }
+       .common_head h3 {
+           padding-top: 0px;
+       }
+       .first_footer_text a {
+           margin-bottom: 0px;
+       }
+       .scnd_footer_text p {
+           font-size: 13px;
+       }
+       .scnd_footer_text h4 {
+           font-size: 11px;
+       }
+       .third_footer_text p {
+           font-size: 13px;
+       }
+       .third_footer_text h4 {
+           font-size: 11px;
+       }
+       /* *************** */
+   
+       .waxom_clr {
+           padding-right: 5px;
+       }
+       .common_head h3 {
+           padding-top: 0px;
+       }
+       .first_footer_text {
+           margin-bottom: 35px;
+       }
+       .footer_left a {
+           padding-left: 5px;
+           padding-right: 5px;
+       }
+       .footer_left p, .footer_right p {
+           font-size: 12px;
+           text-align: center;
+       }
+       .a1 {
+           padding-right: 5px;
+       }
+       .a2 {
+           padding-left: 5px;
+       }
+       .footer_right {
+           margin-top: 10px;
+       }
+       #footer {
+           padding-top: 25px;
+           padding-bottom: 30px;
+       }
+       .back-to-top {
+           bottom: 20px;
+           right: 20px;
+       }
+       .back-to-top i {
+           font-size: 25px;
+       }
+       /* Footer Part End */
+   
+    }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+     /* Header Part Start */
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+        transition: 0.4s;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -ms-transition: 0.4s;
+        -o-transition: 0.4s;
+    }
+    .navbar-light .navbar-toggler i {
+        color: #fff;
+        transition: 0.4s;
+    }
+    .navbar-toggler:hover {
+        border-color: #c7b299;
+    }
+    .navbar-toggler:hover.navbar-toggler i {
+        color: #c7b299;
+    }
+    .navbar-nav {
+        text-align: center;
+        background: rgba(17, 17, 17, 0.95);
+    }
+    .sticky_header {
+        background: linear-gradient(to right, #211b19, #4e3427);
+        opacity: 0.95;
+    }
+    /* Header Part End */
+
+     /* Banner Part Start */
+    .overlay {
+        padding-top: 200px;
+        padding-bottom: 80px;
+    }
+    .banner_text h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .banner_text h1 {
+        font-size: 35px;
+    }
+    .banner_text p {
+        font-size: 13px;
+        padding: 0px 0px;
+        line-height: 24px;
+    }
+    .banner_text a {
+        font-size: 10px;
+        padding: 12px 25px 9px 25px;
+        margin-top: 42px;
+    }
+    /* Banner Part End */
+    
+    /* Service Part Start */
+    #service {
+        padding: 40px 0px;
+    }
+    .service_text p {
+        font-size: 12px;
+        padding: 0px 20px;
+    }
+    /* Service Part End */
+
+     /* idea Part Start */
+     #idea {
+        padding-top: 40px;
+    }
+    .idea_text h3 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .idea_text p {
+        font-size: 13px;
+        line-height: 24px;
+        padding: 20px 10px 30px 10px;
+    }
+    /* idea Part End */
+
+    /* purchase Part Start */
+    #purchase {
+        padding: 40px 0px;
+    }
+    .purchase_text h3 {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .purchase_text p {
+        font-size: 14px;
+        text-align: center;
+        line-height: 24px;
+    }
+    .purchase_btn {
+        text-align: center;
+    }
+    .purchase_btn a {
+        font-size: 10px;
+        padding: 8px 18px 5px 17px;
+        margin-top: 25px;
+    }
+    .text-right {
+        text-align: center !important;
+    } 
+    /* purchase Part End */
+
+     /* Project Part Start */
+     #project {
+        padding: 40px 0px;
+        background: #fff;
+    }
+    .project_btn button {
+        padding: 5px 10px 5px 10px;
+        font-size: 12px;
+        margin-right: 2px;
+        margin-bottom: 5px;
+    }
+    .project_text h3 {
+        font-size: 18px;
+    }
+    .project_text p {
+        font-size: 12px;
+    }
+    .project_btn a {
+        font-size: 10px;
+        padding: 10px 20px 7px 20px;
+    }
+    .mt-5, .my-5 {
+        margin-top: 2rem !important;
+    }
+    /* Project Part End */
+
+     /* Video Part Start */
+     .video_overlay {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    /* Video Part End */
+
+    /* Mobile Part Start */
+    #mobile {
+        padding-top: 40px;
+    }
+    .mob_up_text {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .mob_up_text .idea_text p {
+        padding-bottom: 0px;
+    }
+    .mob_btm_text {
+        margin-top: 25px;
+        margin-bottom: 50px;
+        margin-left: 15px;
+    }
+    .mob_btm_text ul li {
+        font-size: 12px;
+        margin-bottom: 12px;
+        line-height: 20px;
+    }
+    .mob_btm_text ul li i {
+        font-size: 15px;
+    }
+    /* Mobile Part End */
+
+     /* Counter Part Start */
+     .counter_item {
+        margin-bottom: 60px;
+    }
+    #counter_part {
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+    /* Counter Part End */
+
+     /* Blog Part Start */
+     #blog {
+        padding: 25px 0px;
+    }
+    .blog_text {
+        text-align: center;
+    }
+    .blog_text h3 {
+        font-size: 20px;
+        transition: 0.4s;
+    }
+    .blog_text p {
+        font-size: 13px;
+    }
+    .blog_text a {
+        font-size: 12px;
+    }
+    /* Blog Part End */
+
+    /* Client Part Start */
+     .client_overlay {
+        padding: 50px 0px;
+    }
+    .slick-slide img {
+        display: inline-block;
+    }
+    /* Client Part end */
+
+    /* Footer Part End */
+    #top_footer {
+        padding: 40px 0px;
+    }
+    .footer_logo {
+        text-align: center;
+    }
+    .first_footer_text {
+        text-align: center;
+    }
+    .common_head h3 {
+        padding-top: 0px;
+    }
+    .first_footer_text a {
+        margin-bottom: 0px;
+    }
+    .scnd_footer_text p {
+        font-size: 13px;
+    }
+    .scnd_footer_text h4 {
+        font-size: 11px;
+    }
+    .third_footer_text p {
+        font-size: 13px;
+    }
+    .third_footer_text h4 {
+        font-size: 11px;
+    }
+    /* *************** */
+
+    .waxom_clr {
+        padding-right: 5px;
+    }
+    .common_head h3 {
+        padding-top: 0px;
+    }
+    .first_footer_text {
+        margin-bottom: 35px;
+    }
+    .footer_left a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .footer_left p, .footer_right p {
+        font-size: 12px;
+        text-align: center;
+    }
+    .a1 {
+        padding-right: 5px;
+    }
+    .a2 {
+        padding-left: 5px;
+    }
+    .footer_right {
+        margin-top: 10px;
+    }
+    #footer {
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+    .back-to-top {
+        bottom: 20px;
+        right: 20px;
+    }
+    .back-to-top i {
+        font-size: 25px;
+    }
+    /* Footer Part End */
+
+ }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    /* Header Part Start */
+    .navbar {
+        padding: 0px 10px;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+        transition: 0.4s;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -ms-transition: 0.4s;
+        -o-transition: 0.4s;
+}
+    .navbar-light .navbar-toggler i {
+        color: #fff;
+        transition: 0.4s;
+    }
+    .navbar-toggler:hover {
+        border-color: #c7b299;
+    }
+    .navbar-toggler:hover.navbar-toggler i {
+        color: #c7b299;
+    }
+    .navbar-nav {
+        text-align: center;
+        background: rgba(17, 17, 17, 0.95);
+    }
+    .sticky_header {
+        background: linear-gradient(to right, #211b19, #4e3427);
+        opacity: 0.95;
+    }
+    /* Header Part End */
+
+    /* Banner Part Start */
+    .overlay {
+        padding-top: 160px;
+        padding-bottom: 60px;
+    }
+    .banner_text h3 {
+        font-size: 22px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+    .banner_text h1 {
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .banner_text p {
+        font-size: 12px;
+        padding: 0px 0px;
+        line-height: 18px;
+    }
+    .banner_text a {
+        font-size: 10px;
+        padding: 8px 18px 5px 17px;
+        margin-top: 25px;
+    }
+    /* Banner Part End */
+
+    /* Service Part Start */
+    #service {
+        padding: 40px 0px;
+    }
+    .service_text p {
+        font-size: 12px;
+        padding: 0px 20px;
+    }
+    /* Service Part End */
+
+    /* idea Part Start */
+    #idea {
+        padding-top: 40px;
+    }
+    .idea_text h3 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 24px;
+    }
+    .idea_text p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 13px;
+        color: #8c8c8c;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        line-height: 24px;
+        padding: 20px 10px 40px 10px;
+    }
+    /* idea Part End */
+
+    /* purchase Part Start */
+    .purchase_text h3 {
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .purchase_text p {
+        font-size: 14px;
+        text-align: center;
+        line-height: 24px;
+    }
+    .purchase_btn {
+        text-align: center;
+    }
+    .purchase_btn a {
+        font-size: 10px;
+        padding: 8px 18px 5px 17px;
+        margin-top: 25px;
+    }
+    .text-right {
+        text-align: center !important;
+    } 
+    /* purchase Part End */
+
+    /* Project Part Start */
+    #project {
+        padding: 40px 0px;
+        background: #fff;
+    }
+    .project_btn button {
+        padding: 5px 10px 5px 10px;
+        font-size: 12px;
+        margin-right: 2px;
+        margin-bottom: 5px;
+    }
+    .project_text h3 {
+        font-size: 18px;
+    }
+    .project_text p {
+        font-size: 12px;
+    }
+    .project_btn a {
+        font-size: 10px;
+        padding: 10px 20px 7px 20px;
+    }
+    .mt-5, .my-5 {
+        margin-top: 2rem !important;
+    }
+    /* Project Part End */
+
+    /* Video Part Start */
+    .video_overlay {
+        padding-top: 80px;
+        padding-bottom: 30px;
+    }
+    .idea_text h3 {
+        font-size: 22px;
+    }
+    .idea_text p {
+        font-size: 12px;
+    }
+    /* Video Part End */
+
+    /* Mobile Part Start */
+    #mobile {
+        padding-top: 40px;
+    }
+    .mob_up_text {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .mob_up_text .idea_text p {
+        padding-bottom: 0px;
+    }
+    .mob_btm_text {
+        margin-top: 25px;
+        margin-bottom: 50px;
+        margin-left: 15px;
+    }
+    .mob_btm_text ul li {
+        font-size: 12px;
+        margin-bottom: 12px;
+        line-height: 20px;
+    }
+    .mob_btm_text ul li i {
+        font-size: 15px;
+    }
+    /* Mobile Part End */
+
+    /* Counter Part Start */
+    .counter_item {
+        margin-bottom: 60px;
+    }
+    #counter_part {
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+    /* Counter Part End */
+
+    /* Blog Part Start */
+    #blog {
+        padding: 25px 0px;
+    }
+    .blog_text {
+        text-align: center;
+    }
+    .blog_text h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .blog_text p {
+        font-size: 11px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .blog_text a {
+        font-size: 12px;
+    }
+    /* Blog Part End */
+
+    /* Client Part Start */
+    .client_overlay {
+        padding: 50px 0px;
+    }
+    .slick-slide img {
+        display: inline-block;
+    }
+    /* Client Part End */
+
+    /* Footer Part End */
+    #top_footer {
+        padding: 40px 0px;
+    }
+    .footer_logo {
+        text-align: center;
+    }
+    .first_footer_text {
+        text-align: center;
+    }
+    .common_head h3 {
+        padding-top: 50px;
+    }
+    .scnd_footer_text p {
+        font-size: 13px;
+    }
+    .scnd_footer_text h4 {
+        font-size: 11px;
+    }
+    .third_footer_text p {
+        font-size: 13px;
+    }
+    .third_footer_text h4 {
+        font-size: 11px;
+    }
+    /* *************** */
+
+    .waxom_clr {
+        padding-right: 5px;
+    }
+    .common_head h3 {
+        padding-top: 0px;
+    }
+    .first_footer_text {
+        margin-bottom: 35px;
+    }
+    .footer_left a {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .footer_left p, .footer_right p {
+        font-size: 9px;
+        text-align: center;
+    }
+    .a1 {
+        padding-right: 5px;
+    }
+    .a2 {
+        padding-left: 5px;
+    }
+    .footer_right {
+        margin-top: 10px;
+    }
+    #footer {
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }
+    .back-to-top {
+        bottom: 20px;
+        right: 20px;
+    }
+    .back-to-top i {
+        font-size: 25px;
+    }
+    /* Footer Part End */
+
+    
+
+    
+ }
+
+
+
+
+
+
+
+
